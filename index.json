@@ -12,7 +12,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/age/1.2.1.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/age/1.2.1.yap"
     },
     {
       "id": "airplay2-orion",
@@ -25,7 +25,20 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/airplay2-orion/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/airplay2-orion/1.0.0.yap"
+    },
+    {
+      "id": "alice-pro-led",
+      "version": "1.1.0",
+      "name": "Alice Pro LED",
+      "description": "Подмена LED-анимаций Алисы на стиль «Алиса Про» (бирюзово-фиолетовый градиент) на любой колонке. Обходит все каталоги паттернов с alice_pro_*.led: если штатный pro уже в стиле Pro (Mini 2), берёт его; если это ровное фиолетовое затухание (Midi, oknix), собирает паттерн под нужное число LED из pro-анимаций другого каталога, обычно кольца, сохраняя палитру, кадры, задержки и позицию loop. С бэкапом и откатом. Запуск: yam run alice-pro-led [enable|restore|status]",
+      "sha256": "873bc60720ab9ada0b27aed6b3695c87a16d2d179fc540865d49d10e37bdf0dd",
+      "models": [],
+      "features": [
+        "led.ring.rgb"
+      ],
+      "target": "any",
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/alice-pro-led/1.1.0.yap"
     },
     {
       "id": "apkg",
@@ -38,7 +51,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/apkg/1.0.1.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/apkg/1.0.1.yap"
     },
     {
       "id": "aria2",
@@ -51,7 +64,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/aria2/1.37.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/aria2/1.37.0.yap"
     },
     {
       "id": "bash",
@@ -64,7 +77,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/bash/5.2.26.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/bash/5.2.26.yap"
     },
     {
       "id": "bat",
@@ -77,7 +90,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/bat/0.24.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/bat/0.24.0.yap"
     },
     {
       "id": "bottom",
@@ -90,7 +103,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/bottom/0.9.6.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/bottom/0.9.6.yap"
     },
     {
       "id": "btop",
@@ -103,7 +116,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/btop/1.4.7.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/btop/1.4.7.yap"
     },
     {
       "id": "cuberite",
@@ -116,7 +129,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/cuberite/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/cuberite/1.0.0.yap"
     },
     {
       "id": "curl",
@@ -129,7 +142,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/curl/8.14.1.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/curl/8.14.1.yap"
     },
     {
       "id": "darkhttpd",
@@ -142,7 +155,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/darkhttpd/1.16.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/darkhttpd/1.16.yap"
     },
     {
       "id": "delta",
@@ -155,7 +168,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/delta/0.17.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/delta/0.17.0.yap"
     },
     {
       "id": "dig",
@@ -168,7 +181,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/dig/9.18.27.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/dig/9.18.27.yap"
     },
     {
       "id": "dropbear",
@@ -181,7 +194,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/dropbear/2022.82.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/dropbear/2022.82.yap"
     },
     {
       "id": "dust",
@@ -194,7 +207,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/dust/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/dust/1.0.0.yap"
     },
     {
       "id": "eza",
@@ -207,7 +220,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/eza/0.18.16.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/eza/0.18.16.yap"
     },
     {
       "id": "fastfetch",
@@ -220,7 +233,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/fastfetch/2.70.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/fastfetch/2.70.0.yap"
     },
     {
       "id": "fd",
@@ -233,7 +246,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/fd/10.1.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/fd/10.1.0.yap"
     },
     {
       "id": "file",
@@ -246,7 +259,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/file/5.45.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/file/5.45.yap"
     },
     {
       "id": "findutils",
@@ -259,7 +272,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/findutils/4.9.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/findutils/4.9.0.yap"
     },
     {
       "id": "fzf",
@@ -272,7 +285,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/fzf/0.54.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/fzf/0.54.0.yap"
     },
     {
       "id": "gawk",
@@ -285,7 +298,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/gawk/5.3.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/gawk/5.3.0.yap"
     },
     {
       "id": "gnupg",
@@ -298,7 +311,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/gnupg/2.4.5.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/gnupg/2.4.5.yap"
     },
     {
       "id": "htop",
@@ -311,7 +324,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/htop/3.3.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/htop/3.3.0.yap"
     },
     {
       "id": "hyperfine",
@@ -324,7 +337,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/hyperfine/1.18.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/hyperfine/1.18.0.yap"
     },
     {
       "id": "iperf3",
@@ -337,7 +350,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/iperf3/3.17.1.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/iperf3/3.17.1.yap"
     },
     {
       "id": "jq",
@@ -350,7 +363,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/jq/1.7.1.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/jq/1.7.1.yap"
     },
     {
       "id": "ledart",
@@ -361,7 +374,7 @@
       "models": [],
       "features": [],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/ledart/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/ledart/1.0.0.yap"
     },
     {
       "id": "less",
@@ -374,7 +387,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/less/643.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/less/643.yap"
     },
     {
       "id": "lsof",
@@ -387,7 +400,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/lsof/4.99.3.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/lsof/4.99.3.yap"
     },
     {
       "id": "make",
@@ -400,7 +413,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/make/4.4.1.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/make/4.4.1.yap"
     },
     {
       "id": "micro",
@@ -413,7 +426,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/micro/2.0.13.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/micro/2.0.13.yap"
     },
     {
       "id": "miniserve",
@@ -426,7 +439,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/miniserve/0.29.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/miniserve/0.29.0.yap"
     },
     {
       "id": "mtr",
@@ -439,7 +452,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/mtr/0.95.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/mtr/0.95.yap"
     },
     {
       "id": "nano",
@@ -452,7 +465,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/nano/8.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/nano/8.0.yap"
     },
     {
       "id": "ncdu",
@@ -465,7 +478,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/ncdu/1.20.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/ncdu/1.20.yap"
     },
     {
       "id": "neofetch",
@@ -478,7 +491,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/neofetch/7.1.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/neofetch/7.1.0.yap"
     },
     {
       "id": "netcat",
@@ -491,7 +504,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/netcat/1.226.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/netcat/1.226.yap"
     },
     {
       "id": "node",
@@ -504,7 +517,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/node/20.15.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/node/20.15.0.yap"
     },
     {
       "id": "openssh",
@@ -517,7 +530,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/openssh/9.7.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/openssh/9.7.yap"
     },
     {
       "id": "openssl",
@@ -530,7 +543,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/openssl/3.3.2.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/openssl/3.3.2.yap"
     },
     {
       "id": "openvpn",
@@ -543,7 +556,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/openvpn/2.6.20.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/openvpn/2.6.20.yap"
     },
     {
       "id": "parallel",
@@ -556,7 +569,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/parallel/20240422.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/parallel/20240422.yap"
     },
     {
       "id": "patch",
@@ -569,7 +582,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/patch/2.7.6.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/patch/2.7.6.yap"
     },
     {
       "id": "pip",
@@ -582,7 +595,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/pip/24.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/pip/24.0.yap"
     },
     {
       "id": "procps",
@@ -595,7 +608,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/procps/4.0.4.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/procps/4.0.4.yap"
     },
     {
       "id": "procs",
@@ -608,7 +621,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/procs/0.14.5.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/procs/0.14.5.yap"
     },
     {
       "id": "pv",
@@ -621,7 +634,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/pv/1.8.5.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/pv/1.8.5.yap"
     },
     {
       "id": "python3",
@@ -634,7 +647,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/python3/3.12.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/python3/3.12.0.yap"
     },
     {
       "id": "rclone",
@@ -647,7 +660,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/rclone/1.66.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/rclone/1.66.0.yap"
     },
     {
       "id": "restic",
@@ -660,7 +673,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/restic/0.16.4.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/restic/0.16.4.yap"
     },
     {
       "id": "ripgrep",
@@ -673,7 +686,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/ripgrep/14.1.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/ripgrep/14.1.0.yap"
     },
     {
       "id": "rsync",
@@ -686,7 +699,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/rsync/3.4.3.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/rsync/3.4.3.yap"
     },
     {
       "id": "sd",
@@ -699,7 +712,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/sd/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/sd/1.0.0.yap"
     },
     {
       "id": "socat",
@@ -712,7 +725,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/socat/1.8.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/socat/1.8.0.yap"
     },
     {
       "id": "soloist-lite1",
@@ -725,7 +738,7 @@
         "audio.volume.alsa"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/soloist-lite1/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/soloist-lite1/1.0.0.yap"
     },
     {
       "id": "soloist-lite1",
@@ -738,7 +751,7 @@
         "audio.volume.alsa"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/soloist-lite1/1.0.1.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/soloist-lite1/1.0.1.yap"
     },
     {
       "id": "soloist-lite1",
@@ -751,7 +764,7 @@
         "audio.volume.alsa"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/soloist-lite1/1.0.2.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/soloist-lite1/1.0.2.yap"
     },
     {
       "id": "sqlite",
@@ -764,7 +777,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/sqlite/3.45.3.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/sqlite/3.45.3.yap"
     },
     {
       "id": "sshpass",
@@ -777,7 +790,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/sshpass/1.10.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/sshpass/1.10.yap"
     },
     {
       "id": "station-airplay",
@@ -795,7 +808,7 @@
         "led.ring.3"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/station-airplay/1.1.5.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/station-airplay/1.1.5.yap"
     },
     {
       "id": "station-airplay",
@@ -813,7 +826,7 @@
         "led.ring.rgb"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/station-airplay/1.2.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/station-airplay/1.2.0.yap"
     },
     {
       "id": "station-airplay",
@@ -830,7 +843,7 @@
       ],
       "features": [],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/station-airplay/1.4.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/station-airplay/1.4.0.yap"
     },
     {
       "id": "station-volume",
@@ -845,7 +858,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/station-volume/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/station-volume/1.0.0.yap"
     },
     {
       "id": "strace",
@@ -858,7 +871,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/strace/6.9.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/strace/6.9.yap"
     },
     {
       "id": "tcpdump",
@@ -871,7 +884,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/tcpdump/4.99.4.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/tcpdump/4.99.4.yap"
     },
     {
       "id": "tig",
@@ -884,7 +897,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/tig/2.5.10.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/tig/2.5.10.yap"
     },
     {
       "id": "tree",
@@ -897,7 +910,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/tree/2.1.3.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/tree/2.1.3.yap"
     },
     {
       "id": "unzip",
@@ -910,7 +923,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/unzip/6.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/unzip/6.0.yap"
     },
     {
       "id": "uwu-eyes",
@@ -923,7 +936,7 @@
         "display.clock.segment.v1"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/uwu-eyes/1.3.2.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/uwu-eyes/1.3.2.yap"
     },
     {
       "id": "wget",
@@ -936,7 +949,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/wget/1.24.5.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/wget/1.24.5.yap"
     },
     {
       "id": "wireguard",
@@ -949,7 +962,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/wireguard/1.0.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/wireguard/1.0.0.yap"
     },
     {
       "id": "xz",
@@ -962,7 +975,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/xz/5.6.2.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/xz/5.6.2.yap"
     },
     {
       "id": "ya-ambilight",
@@ -975,7 +988,7 @@
         "led.ring.rgb"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/ya-ambilight/0.3.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/ya-ambilight/0.3.0.yap"
     },
     {
       "id": "zip",
@@ -988,7 +1001,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/zip/3.0.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/zip/3.0.yap"
     },
     {
       "id": "zsh",
@@ -1001,7 +1014,7 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/zsh/5.9.2.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/zsh/5.9.2.yap"
     },
     {
       "id": "zstd",
@@ -1014,12 +1027,13 @@
         "arch.aarch64"
       ],
       "target": "any",
-      "url": "https://raw.githubusercontent.com/nyakokitsu/yapkg/packages/packages/zstd/1.5.6.yap"
+      "url": "https://raw.githubusercontent.com/vladglass0/yapkg/packages/packages/zstd/1.5.6.yap"
     }
   ],
   "latest": {
     "age": "1.2.1",
     "airplay2-orion": "1.0.0",
+    "alice-pro-led": "1.1.0",
     "apkg": "1.0.1",
     "aria2": "1.37.0",
     "bash": "5.2.26",
